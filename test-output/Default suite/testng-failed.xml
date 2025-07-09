@@ -6,9 +6,8 @@
       <class name="Testclasses.Amazontest">
         <methods>
           <include name="tearDown"/>
-          <include name="searchSamsungandAddtoCart"/>
           <include name="searchiPhoneandAddtoCart"/>
-          <include name="envSetUp"/>
+          <include name="setUp"/>
         </methods>
       </class> <!-- Testclasses.Amazontest -->
     </classes>

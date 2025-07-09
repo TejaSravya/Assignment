@@ -13,13 +13,15 @@ public class CommonMethods {
     public CommonMethods(WebDriver driver) {
         this.driver = driver;
     }
-	public void searchProductandAddtoCart(String product) {
+	public String searchProductandAddtoCart(String product) {
 	HomePage home= new HomePage(driver);
 	ItemSearchList item=new ItemSearchList(driver);
     CartPage cart=new CartPage(driver);
+    home.open();
 	home.searchItem(product);
 	item.addProductToCart();
 	item.goToCart();
-	System.out.println("price is" +cart.retrivePrice());
+	return cart.retrivePrice();
+	
 }
 }

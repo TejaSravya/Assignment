@@ -2,36 +2,80 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-09T01:50:54 IST" name="MyTestSuite" finished-at="2025-07-09T01:51:06 IST" duration-ms="12150">
+  <suite started-at="2025-07-09T13:32:00 IST" name="LambdaTest Parallel Method Suite" finished-at="2025-07-09T13:32:21 IST" duration-ms="20994">
     <groups>
     </groups>
-    <test started-at="2025-07-09T01:50:54 IST" name="MyTest" finished-at="2025-07-09T01:51:06 IST" duration-ms="12150">
+    <test started-at="2025-07-09T13:32:00 IST" name="ParallelMethodTest" finished-at="2025-07-09T13:32:21 IST" duration-ms="20994">
       <class name="Testclasses.Amazontest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Testclasses.Amazontest@121314f7]" started-at="2025-07-09T01:50:54 IST" name="setUp" finished-at="2025-07-09T01:50:58 IST" duration-ms="3734" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:Testclasses.Amazontest@6fdbe764]" started-at="2025-07-09T13:32:00 IST" name="setUp" finished-at="2025-07-09T13:32:12 IST" duration-ms="11328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void Testclasses.Amazontest.searchSamsungandAddtoCart()]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Testclasses.Amazontest@121314f7]" started-at="2025-07-09T01:50:54 IST" name="setUp" finished-at="2025-07-09T01:50:58 IST" duration-ms="4408" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:Testclasses.Amazontest@6fdbe764]" started-at="2025-07-09T13:32:00 IST" name="setUp" finished-at="2025-07-09T13:32:10 IST" duration-ms="9840" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void Testclasses.Amazontest.searchiPhoneandAddtoCart()]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="searchSamsungandAddtoCart()[pri:0, instance:Testclasses.Amazontest@121314f7]" started-at="2025-07-09T01:50:58 IST" name="searchSamsungandAddtoCart" finished-at="2025-07-09T01:51:06 IST" duration-ms="7868" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchSamsungandAddtoCart -->
-        <test-method signature="searchiPhoneandAddtoCart()[pri:0, instance:Testclasses.Amazontest@121314f7]" started-at="2025-07-09T01:50:58 IST" name="searchiPhoneandAddtoCart" finished-at="2025-07-09T01:51:06 IST" duration-ms="7248" status="PASS">
+        <test-method signature="searchiPhoneandAddtoCart()[pri:0, instance:Testclasses.Amazontest@6fdbe764]" started-at="2025-07-09T13:32:10 IST" name="searchiPhoneandAddtoCart" finished-at="2025-07-09T13:32:21 IST" duration-ms="10635" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchiPhoneandAddtoCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Testclasses.Amazontest@121314f7]" started-at="2025-07-09T01:51:06 IST" name="tearDown" finished-at="2025-07-09T01:51:06 IST" duration-ms="410" status="PASS">
+        <test-method signature="searchSamsungandAddtoCart()[pri:0, instance:Testclasses.Amazontest@6fdbe764]" started-at="2025-07-09T13:32:12 IST" name="searchSamsungandAddtoCart" finished-at="2025-07-09T13:32:21 IST" duration-ms="9515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchSamsungandAddtoCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Testclasses.Amazontest@6fdbe764]" started-at="2025-07-09T13:32:21 IST" name="tearDown" finished-at="2025-07-09T13:32:21 IST" duration-ms="175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Testclasses.Amazontest@121314f7]" started-at="2025-07-09T01:51:06 IST" name="tearDown" finished-at="2025-07-09T01:51:06 IST" duration-ms="438" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Testclasses.Amazontest@6fdbe764]" started-at="2025-07-09T13:32:21 IST" name="tearDown" finished-at="2025-07-09T13:32:21 IST" duration-ms="92" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Testclasses.Amazontest -->
-    </test> <!-- MyTest -->
-  </suite> <!-- MyTestSuite -->
+    </test> <!-- ParallelMethodTest -->
+  </suite> <!-- LambdaTest Parallel Method Suite -->
 </testng-results>

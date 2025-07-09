@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite thread-count="2" parallel="methods" name="Failed suite [MyTestSuite]" guice-stage="DEVELOPMENT">
-  <test thread-count="2" parallel="methods" name="MyTest(failed)">
+  <test thread-count="2" parallel="methods" name="Chrome Test(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="version" value="latest"/>
+    <parameter name="platform" value="Windows 10"/>
     <classes>
       <class name="Testclasses.Amazontest">
         <methods>
           <include name="tearDown"/>
           <include name="searchSamsungandAddtoCart"/>
+          <include name="searchiPhoneandAddtoCart"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- Testclasses.Amazontest -->
     </classes>
-  </test> <!-- MyTest(failed) -->
+  </test> <!-- Chrome Test(failed) -->
 </suite> <!-- Failed suite [MyTestSuite] -->
