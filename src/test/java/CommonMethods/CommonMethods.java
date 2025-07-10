@@ -1,8 +1,6 @@
-package CommonMethods;
+package commonmethods;
 
 import org.openqa.selenium.WebDriver;
-
-import base.baseclass;
 import pageclasses.CartPage;
 import pageclasses.HomePage;
 import pageclasses.ItemSearchList;

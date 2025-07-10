@@ -29,7 +29,12 @@ public class HomePage {
 	        driver.get(url);
 	        driver.manage().window().maximize();
 	    }
-	public void searchItem(String itemname) {		
+	public void searchItem(String itemname) {	
+		if (continueShopping.isDisplayed()) {
+          continueShopping.click();
+		} else {
+		    System.out.println("Button is not visible, skipping click.");
+		}
 		searchTextBox.clear();
 		searchTextBox.sendKeys(itemname);
 		searchButton.click();

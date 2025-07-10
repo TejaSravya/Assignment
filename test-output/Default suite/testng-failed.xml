@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Testclasses.Amazontest">
+      <class name="testclasses.Amazontest">
         <methods>
           <include name="tearDown"/>
-          <include name="searchiPhoneandAddtoCart"/>
           <include name="setUp"/>
+          <include name="searchSamsungandAddtoCart"/>
+          <include name="searchiPhoneandAddtoCart"/>
         </methods>
-      </class> <!-- Testclasses.Amazontest -->
+      </class> <!-- testclasses.Amazontest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

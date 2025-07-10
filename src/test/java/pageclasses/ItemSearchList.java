@@ -1,6 +1,5 @@
 package pageclasses;
 
-import java.io.File;
 import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
@@ -10,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.OutputType;
+
 
 public class ItemSearchList {
 	 WebDriver driver;
@@ -47,5 +46,4 @@ public class ItemSearchList {
         return new WebDriverWait(driver, Duration.ofSeconds(timeoutSeconds))
                 .until(ExpectedConditions.elementToBeClickable(element));
     }
-////div[contains(@role,'listitem') and contains(@data-component-type,"s-search-result")][1]//*contains(@data-cy="add-to-cart")
 }

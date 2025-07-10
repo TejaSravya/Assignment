@@ -2,10 +2,11 @@
 <suite name="LambdaTest Parallel Method Suite" parallel="methods" thread-count="3">
     <test name="ParallelMethodTest">
         <parameter name="browser" value="chrome"/>
+        <parameter name="runMode" value="remote"/>
         <parameter name="version" value="latest"/>
         <parameter name="platform" value="Windows 10"/>
         <classes>
-            <class name="Testclasses.Amazontest"/>
+            <class name="testclasses.Amazontest"/>
         </classes>
     </test>
 </suite>
